@@ -1,59 +1,36 @@
 [![Logo](/logo.png)](http://awesome-scalability.com/)
 
-An updated and organized reading list for illustrating the patterns of scalable, reliable, and performant large-scale systems. Concepts are explained in the articles of prominent engineers and credible references. Case studies are taken from battle-tested systems that serve millions to billions of users.
+h
 
 #### If your system goes slow
-> Understand your problems: scalability problem (fast for a single user but slow under heavy load) or performance problem (slow for a single user) by reviewing some [design principles](#principle) and checking how [scalability](#scalability) and [performance](#performance) problems are solved at tech companies. The section of [intelligence](#intelligence) are created for those who work with data and machine learning at big (data) and deep (learning) scale.
+
 
 #### If your system goes down
-> "Even if you lose all one day, you can build all over again if you retain your calm!" - Thuan Pham, former CTO of Uber. So, keep calm and mind the [availability](#availability) and [stability](#stability) matters! 
 
-#### If you are having a system design interview
-> Look at some [interview notes](#interview) and [real-world architectures with completed diagrams](#architecture) to get a comprehensive view before designing your system on whiteboard. You can check some [talks](#talk) of engineers from tech giants to know how they build, scale, and optimize their systems. Good luck!
 
-#### If you are building your dream team
-> The goal of scaling team is not growing team size but increasing team output and value. You can find out how tech companies reach that goal in various aspects: hiring, management, organization, culture, and communication in the [organization](#organization) section.
 
-#### Community power
+r
+#### If you are building your dream teamj
 
-> Contributions are greatly welcome! You may want to take a look at the [contribution guidelines](CONTRIBUTING.md). If you see a link here that is no longer maintained or is not a good fit, please submit a pull request!
 
-> Many long hours of hard work have gone into this project. If you find it helpful, please share on Facebook, [on Twitter](https://ctt.ec/V8B2p), [on Weibo](http://t.cn/RnjFLCB), or on your chat groups! Knowledge is power, knowledge shared is power multiplied. Thank you!
-
-## Content
 - [Principle](#principle)
 - [Scalability](#scalability)
 - [Availability](#availability)
-- [Stability](#stability)
+
 - [Performance](#performance)
 - [Intelligence](#intelligence)
-- [Architecture](#architecture)
-- [Interview](#interview)
-- [Organization](#organization)
+- [Architectur](#architecture)
+- [Intervie](#interview)
+d
 - [Talk](#talk)
 - [Book](#book)
 
 ## Principle
-* [Lessons from Giant-Scale Services - Eric Brewer, UC Berkeley & Google](https://people.eecs.berkeley.edu/~brewer/papers/GiantScale-IEEE.pdf)
-* [Designs, Lessons and Advice from Building Large Distributed Systems - Jeff Dean, Google](https://www.cs.cornell.edu/projects/ladis2009/talks/dean-keynote-ladis2009.pdf)
-* [How to Design a Good API & Why it Matters - Joshua Bloch, CMU & Google](https://www.infoq.com/presentations/effective-api-design)
-* [On Efficiency, Reliability, Scaling - James Hamilton, VP at AWS](http://mvdirona.com/jrh/work/)
-* [Principles of Chaos Engineering](https://www.usenix.org/conference/srecon17americas/program/presentation/rosenthal)
-* [Finding the Order in Chaos](https://www.usenix.org/conference/srecon16/program/presentation/lueder)
-* [The Twelve-Factor App](https://12factor.net/)
-* [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
-* [High Cohesion and Low Coupling](http://www.math-cs.gordon.edu/courses/cs211/lectures-2009/Cohesion,Coupling,MVC.pdf)
-* [Monoliths and Microservices](https://medium.com/@SkyscannerEng/monoliths-and-microservices-8c65708c3dbf)
-* [CAP Theorem and Trade-offs](http://robertgreiner.com/2014/08/cap-theorem-revisited/)
-* [CP Databases and AP Databases](https://blog.andyet.com/2014/10/01/right-database)
-* [Stateless vs Stateful Scalability](http://ithare.com/scaling-stateful-objects/)	
-* [Scale Up vs Scale Out: Hidden Costs](https://blog.codinghorror.com/scaling-up-vs-scaling-out-hidden-costs/)
-* [ACID and BASE](https://neo4j.com/blog/acid-vs-base-consistency-models-explained/)
-* [Blocking/Non-Blocking and Sync/Async](https://blogs.msdn.microsoft.com/csliu/2009/08/27/io-concept-blockingnon-blocking-vs-syncasync/)
-* [Performance and Scalability of Databases](https://use-the-index-luke.com/sql/testing-scalability)
+* [Lessons from Giant-Scalehdhdhd Services - Eric Brewer, UC Berkeley & Google]()
+* [CP Databasesand AP hDatabase](https://blog.andyet.com/2014/10/01/right-database)d
 * [Database Isolation Levels and Effects on Performance and Scalability](http://highscalability.com/blog/2011/2/10/database-isolation-levels-and-their-effects-on-performance-a.html)
 * [The Probability of Data Loss in Large Clusters](https://martin.kleppmann.com/2017/01/26/data-loss-in-large-clusters.html)
-* [Data Access for Highly-Scalable Solutions: Using SQL, NoSQL, and Polyglot Persistence](https://docs.microsoft.com/en-us/previous-versions/msp-n-p/dn271399(v=pandp.10))
+* [Data for Highly-Scalable Solutions: Using SQL, NoSQL, and Polyglot Persistence](https://docs.microsoft.hxhdhdhd com/en-us/previous-versions/msp-n-p/dn271399(v=pandp.10))
 * [SQL vs NoSQL](https://www.upwork.com/hiring/data/sql-vs-nosql-databases-whats-the-difference/)
 * [SQL vs NoSQL - Lesson Learned at Salesforce](https://engineering.salesforce.com/sql-or-nosql-9eaf1d92545b)
 * [NoSQL Databases: Survey and Decision Guidance](https://medium.baqend.com/nosql-databases-a-survey-and-decision-guidance-ea7823a822d)
